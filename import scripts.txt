@@ -1,0 +1,502 @@
+INSERT INTO public.airline(
+	airline_id, airline_name, email, adress)
+	VALUES (1, 'Alaska Iternationale' , 'alaskaairlines@gmail.com', '19300 International Boulevard');
+INSERT INTO public.airline(
+	airline_id, airline_name, email, adress)
+	VALUES (2, 'American Airlines' , 'americanairlines@gmail.com', '1 Skyview Dr Fort Worth');
+INSERT INTO public.airline(
+	airline_id, airline_name, email, adress)
+	VALUES (3, 'United Airlines' , 'alaskaairlines@gmail.com', '19300 International Boulevard');
+INSERT INTO public.airline(
+	airline_id, airline_name, email, adress)
+	VALUES (4, 'Delta Air Lines' , 'deltaairlines@gmail.com', '1030 Delta Boulevard Atlanta');
+INSERT INTO public.airline(
+	airline_id, airline_name, email, adress)
+	VALUES (5, 'Spirit Airlines' , 'spiritairlines@gmail.com', '2800 Executive Way');
+
+
+INSERT INTO public.airplane(
+	airplane_id, model_num, airline_id, airplane_type_id)
+	VALUES (1, '14564', 1, 1);
+INSERT INTO public.airplane(
+	airplane_id, model_num, airline_id, airplane_type_id)
+	VALUES (2, '15472', 2, 2);
+INSERT INTO public.airplane(
+	airplane_id, model_num, airline_id, airplane_type_id)
+	VALUES (3, '74889', 3, 3);
+INSERT INTO public.airplane(
+	airplane_id, model_num, airline_id, airplane_type_id)
+	VALUES (4, '11736', 4, 4);
+INSERT INTO public.airplane(
+	airplane_id, model_num, airline_id, airplane_type_id)
+	VALUES (5, '441456', 5, 5);
+
+
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (1, 'Turboprop Aircraft', 476);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (2, 'Regional', 356);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (3, 'Regional', 656);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (4, 'Federline Aircraft', 756);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (5, 'Turboprop Aircraft', 456);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (6, 'Turboprop Aircraft', 956);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (7, 'Regional', 496);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (8, 'Federline Aircraft', 459);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (9, 'Turboprop Aircraft', 436);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (10, 'Regional', 356);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (11, 'Turboprop Aircraft', 453);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (12, 'Turboprop Aircraft', 786);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (13, 'Federline Aircraft', 366);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (14, 'Turboprop Aircraft', 125);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (15, 'Regional', 156);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (16, 'Turboprop Aircraft', 456);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (17, 'Regional', 458);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (18, 'Turboprop Aircraft', 256);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (19, 'Federline Aircraft', 456);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (20, 'Turboprop Aircraft', 666);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (21, 'Turboprop Aircraft', 333);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (22, 'Turboprop Aircraft', 477);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (23, 'Regional', 644);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (24, 'Turboprop Aircraft', 472);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (25, 'Federline Aircraft', 450);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (26, 'Turboprop Aircraft', 406);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (27, 'Turboprop Aircraft', 606);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (28, 'Turboprop Aircraft', 369);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (29, 'Turboprop Aircraft', 456);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (30, 'Turboprop Aircraft', 401);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (31, 'Turboprop Aircraft', 446);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (32, 'Regional', 455);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (33, 'Turboprop Aircraft', 499);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (34, 'Federline Aircraft', 456);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (35, 'Turboprop Aircraft', 456);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (36, 'Federline Aircraft', 433);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (37, 'Turboprop Aircraft', 496);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (38, 'Regional', 886);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (39, 'Turboprop Aircraft', 776);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (40, 'Turboprop Aircraft', 477);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (41, 'Turboprop Aircraft', 676);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (42, 'Turboprop Aircraft', 111);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (43, 'Turboprop Aircraft', 221);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (44, 'Turboprop Aircraft', 223);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (45, 'Federline Aircraft', 606);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (46, 'Regional', 433);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (47, 'Turboprop Aircraft', 985);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (48, 'Regional', 369);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (49, 'Federline Aircraft', 226);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (50, 'Regional', 555);
+INSERT INTO public.airplane_type(
+	type_id, description, identifier)
+	VALUES (51, 'Regional', 665);
+
+
+
+INSERT INTO public.airport(
+	airport_id, iata, icao, name)
+	VALUES (1, 'CAN', 'ZGGG', 'Guangzhou Baiyun International Airport');
+INSERT INTO public.airport(
+	airport_id, iata, icao, name)
+	VALUES (2, 'ATL', 'KATL', 'Hartsfield–Jackson Atlanta International Airport');
+INSERT INTO public.airport(
+	airport_id, iata, icao, name)
+	VALUES (3, 'DFW', 'KDFW', 'Dallas/Fort Worth International Airport');
+INSERT INTO public.airport(
+	airport_id, iata, icao, name)
+	VALUES (4, 'CTU', 'ZUUU', 'Chengdu Shuangliu International Airport');
+INSERT INTO public.airport(
+	airport_id, iata, icao, name)
+	VALUES (5, 'SZX', 'ZGSZ', 'Shenzhen Bao International Airport');
+
+
+
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (1, 'London', 'England');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (2, 'Bratislava', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (3, 'Praha', 'Czech Republic');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (4, 'Budapest', 'Hungary');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (5, 'Presov', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (6, 'Oslo', 'Finland');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (7, 'Poprad', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (8, 'Las Vegas', 'USA');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (9, 'Wellington', 'Australia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (10, 'Brassilia', 'Brazil');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (11, 'Zurich', 'Switzerland');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (12, 'Presov', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (13, 'Munich', 'Germany');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (14, 'Dallas', 'USA');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (15, 'Presov', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (16, 'Moscow', 'Russsia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (17, 'Athens', 'Greece');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (18, 'Chicago', 'USA');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (19, 'Denver', 'USA');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (20, 'Toronto', 'Canada');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (21, 'Boston', 'USA');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (22, 'Presov', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (23, 'Vienna', 'Austria');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (24, 'Brussels', 'Belgium');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (25, 'Presov', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (26, 'Rome', 'Italy');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (27, 'Seatle', 'USA');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (28, 'Detroit', 'USA');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (29, 'Bogota', 'Columbia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (30, 'Atlanta', 'USA');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (31, 'Madrid', 'Spain');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (32, 'Presov', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (33, 'Miami', 'USA');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (34, 'Barcelona', 'Spain');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (35, 'Sydney', 'Australia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (36, 'Poprad', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (37, 'Amsterdam', 'Netherlands');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (38, 'Bratislav', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (39, 'Presov', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (40, 'Poprad', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (41, 'Mexico City', 'Mexico');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (42, 'Presov', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (43, 'Presov', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (44, 'Tokyo', 'Japan');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (45, 'Stockholm', 'Sweden');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (46, 'Frankfurt', 'Germany');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (47, 'Paris', 'France');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (48, 'Hamburg', 'Germany');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (49, 'Berlin', 'Germany');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (50, 'Poprad', 'Slovakia');
+INSERT INTO public.airport_geo(
+	airpot_id, city, country)
+	VALUES (51, 'Houston', 'USA');
+
+
+INSERT INTO public.boarding_pass(
+	boarding_pass_id, gate, meal, baggage, flight_id, passenger_id, ticket_id)
+	VALUES (1, 'B2', 'Fish and Chips', 'carry-on luggage', 1, 1, 1);
+INSERT INTO public.boarding_pass(
+	boarding_pass_id, gate, meal, baggage, flight_id, passenger_id, ticket_id)
+	VALUES (2, 'A2', 'Steak and Chips', 'checked baggage', 2, 2, 2);
+INSERT INTO public.boarding_pass(
+	boarding_pass_id, gate, meal, baggage, flight_id, passenger_id, ticket_id)
+	VALUES (3, 'C3', 'Fish and rice', 'carry-on luggage', 3, 3, 3);
+INSERT INTO public.boarding_pass(
+	boarding_pass_id, gate, meal, baggage, flight_id, passenger_id, ticket_id)
+	VALUES (4, 'B1', 'Chicken Soup', 'checked baggag', 4, 4, 4);
+INSERT INTO public.boarding_pass(
+	boarding_pass_id, gate, meal, baggage, flight_id, passenger_id, ticket_id)
+	VALUES (5, 'A1', 'Fish and Chips', 'checked baggag', 5, 5, 5);
+
+
+INSERT INTO public.cabin_crew(
+	cabin_crew_id, first_name, last_name, contact_number, designation, flight_id)
+	VALUES (1, 'Peter', 'Peterson', 0902698467, 'steward', 1);
+INSERT INTO public.cabin_crew(
+	cabin_crew_id, first_name, last_name, contact_number, designation, flight_id)
+	VALUES (2, 'Jack', 'Jackson', 0992698417, 'steward', 2);
+INSERT INTO public.cabin_crew(
+	cabin_crew_id, first_name, last_name, contact_number, designation, flight_id)
+	VALUES (3, 'Melinda', 'Johnson', 0902478417, 'steward', 3);
+INSERT INTO public.cabin_crew(
+	cabin_crew_id, first_name, last_name, contact_number, designation, flight_id)
+	VALUES (4, 'Alice', 'Hemingway', 0902998417, 'cook', 4);
+INSERT INTO public.cabin_crew(
+	cabin_crew_id, first_name, last_name, contact_number, designation, flight_id)
+	VALUES (5, 'John', 'Kennedy', 0902668417, 'cook', 5);
+
+
+INSERT INTO public.flight(
+	flight_id, airline_id, airplane_id, "from", "to", departure, arrival)
+	VALUES (1, 1, 1, 'London', 'Bratislava', '2020-01-01 10:10:10', '2020-01-01 15:10:10');
+INSERT INTO public.flight(
+	flight_id, airline_id, airplane_id, "from", "to", departure, arrival)
+	VALUES (2, 2, 2, 'Budapest', 'Stockholm', '2019-12-31 23:40:10', '2020-01-01 04:40:10');
+INSERT INTO public.flight(
+	flight_id, airline_id, airplane_id, "from", "to", departure, arrival)
+	VALUES (3, 3, 3, 'Zurich', 'Berlin', '2019-12-31 23:40:10', '2020-01-01 15:10:10');
+INSERT INTO public.flight(
+	flight_id, airline_id, airplane_id, "from", "to", departure, arrival)
+	VALUES (4, 4, 4, 'Moscow', 'Bratislava', '2020-01-01 04:40:10', '2020-01-01 04:40:10');
+INSERT INTO public.flight(
+	flight_id, airline_id, airplane_id, "from", "to", departure, arrival)
+	VALUES (5, 5, 5, 'London', 'Praha', '2020-01-01 18:10:10', '2020-01-01 23:10:10');
+
+
+
+INSERT INTO public.pasenger(
+	passenger_id, firstname, lastname, passportnum)
+	VALUES (1, 'Peter', 'Black', 996321458);
+INSERT INTO public.pasenger(
+	passenger_id, firstname, lastname, passportnum)
+	VALUES (2, 'Albert', 'Isac', 994421458);
+INSERT INTO public.pasenger(
+	passenger_id, firstname, lastname, passportnum)
+	VALUES (3, 'Marie', 'Currie', 596321458);
+INSERT INTO public.pasenger(
+	passenger_id, firstname, lastname, passportnum)
+	VALUES (4, 'Mike', 'Brown', 996321668);
+INSERT INTO public.pasenger(
+	passenger_id, firstname, lastname, passportnum)
+	VALUES (5, 'John', 'Black', 146321458);
+
+
+INSERT INTO public.pasenger_has_ticket(
+	ticket_id, passenger_id)
+	VALUES (1, 1);
+INSERT INTO public.pasenger_has_ticket(
+	ticket_id, passenger_id)
+	VALUES (2, 2);
+INSERT INTO public.pasenger_has_ticket(
+	ticket_id, passenger_id)
+	VALUES (3, 3);
+INSERT INTO public.pasenger_has_ticket(
+	ticket_id, passenger_id)
+	VALUES (4, 4);
+INSERT INTO public.pasenger_has_ticket(
+	ticket_id, passenger_id)
+	VALUES (5, 5);
+
+
+INSERT INTO public.passenger_details(
+	passenger_details_id, birthdate, sex, phone_num, emailadress, city, country, street, passenger_id)
+	VALUES (1,'04/05/1999','male','0902093687', 'peterb@gmail.com', 'London', 'England','Abey Road', 1);
+INSERT INTO public.passenger_details(
+	passenger_details_id, birthdate, sex, phone_num, emailadress, city, country, street, passenger_id)
+	VALUES (2,'04/05/1990','male','0902066687', 'alberti@gmail.com', 'Stockholm', 'Sweden','Långa Gatan', 2);
+INSERT INTO public.passenger_details(
+	passenger_details_id, birthdate, sex, phone_num, emailadress, city, country, street, passenger_id)
+	VALUES (3,'05/04/1993','female','0912093687', 'mariec@gmail.com', 'Bratislava', 'Slovakia','Hviezdoslavova 2', 3);
+INSERT INTO public.passenger_details(
+	passenger_details_id, birthdate, sex, phone_num, emailadress, city, country, street, passenger_id)
+	VALUES (4,'04/25/1989','male','0922093687', 'mikeb@gmail.com', 'Birmingham', 'England','Midlands 92', 4);
+INSERT INTO public.passenger_details(
+	passenger_details_id, birthdate, sex, phone_num, emailadress, city, country, street, passenger_id)
+	VALUES (5,'03/20/1979','male','0962093687', 'johnb@gmail.com', 'Praha', 'Czech republic','Praha 13', 5);
+
+
+INSERT INTO public.pilot(
+	pilot_id, first_name, last_name, contact_number, pilotlicense, designation, flight_id)
+	VALUES (1, 'John', 'Johnson', 0908634789, 6657, 'main pilot', 1);
+INSERT INTO public.pilot(
+	pilot_id, first_name, last_name, contact_number, pilotlicense, designation, flight_id)
+	VALUES (2, 'Mark', 'Clarkson', 0908534789, 9967, 'co-pilot', 2);
+INSERT INTO public.pilot(
+	pilot_id, first_name, last_name, contact_number, pilotlicense, designation, flight_id)
+	VALUES (3, 'John', 'Jackson', 0901634789, 3157, 'main pilot', 3);
+INSERT INTO public.pilot(
+	pilot_id, first_name, last_name, contact_number, pilotlicense, designation, flight_id)
+	VALUES (4, 'Jack', 'Johnson', 0998634789, 7657, 'co-pilot', 4);
+INSERT INTO public.pilot(
+	pilot_id, first_name, last_name, contact_number, pilotlicense, designation, flight_id)
+	VALUES (5, 'Mike', 'Leper', 0908636789, 8857, 'main pilot', 5);
+	
+
+INSERT INTO public.ticket(
+	ticket_id, "from", "to", currency, invoice_num)
+	VALUES (1, 'London', 'Budapest', 'EUR', 56982);
+INSERT INTO public.ticket(
+	ticket_id, "from", "to", currency, invoice_num)
+	VALUES (2, 'Bratislava', 'Praha', 'EUR', 59872);
+INSERT INTO public.ticket(
+	ticket_id, "from", "to", currency, invoice_num)
+	VALUES (3, 'Dallas', 'Moskow', 'USD', 66982);
+INSERT INTO public.ticket(
+	ticket_id, "from", "to", currency, invoice_num)
+	VALUES (4, 'Paris', 'Zurich', 'EUR', 36982);
+INSERT INTO public.ticket(
+	ticket_id, "from", "to", currency, invoice_num)
+	VALUES (5, 'London', 'Paris', 'EUR', 16982);
+
+
+
+
